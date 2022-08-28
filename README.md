@@ -1,2 +1,2 @@
 # Portfolio-Site
-Portfolio site showcasing my work and experience to potential employers.
+Portfolio site showcasing my work and experience in web development.
