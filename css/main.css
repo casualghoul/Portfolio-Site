@@ -61,6 +61,10 @@ body {
     padding-right: 5px;
 }
 
+.tech-tags li:not(:last-child):after {
+    content: " | "
+}
+
 .project-button {
     font-size: 15px;
     border: 3px solid #f89c1c;
@@ -98,16 +102,28 @@ hr {
 
 /* Small/Mobile Media Query */
 @media (max-width: 767px) {
+
+    .bio {
+        margin-top: 25px !important;
+    }
+
     .bio-pic {
         width: 50%;
+        margin-bottom: 20px;
+        border: 10px solid #f89c1c;
     }
 
     .tech-tags {
-        display: block;  
+        display: block; 
+        list-style-type: disc; 
+    }
+
+    .tech-tags li:after {
+        content: "" !important;
     }
 
     .logo {
-        width: 40%;
+        width: 50%;
     }
 
     .nav {
@@ -116,6 +132,8 @@ hr {
 
     .nav-mobile {
         display: block !important;
+        margin-top: 15px;
+        padding: 10px;
     }
     
 }
