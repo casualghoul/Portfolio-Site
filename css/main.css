@@ -15,6 +15,10 @@ body {
 
 }
 
+.nav-mobile {
+    display: none !important;
+}
+
 .logo {
     width: 30%;
 }
@@ -92,14 +96,7 @@ hr {
 }
 
 
-
-
-/* @media (min-width: 767px) and (max-width: 1100px) {
-    .bio-pic {
-        width: 50%;
-    }
-} */
-
+/* Small/Mobile Media Query */
 @media (max-width: 767px) {
     .bio-pic {
         width: 50%;
@@ -110,6 +107,26 @@ hr {
     }
 
     .logo {
-        width: 80%;
+        width: 40%;
+    }
+
+    .nav {
+        display: none !important;
+    }
+
+    .nav-mobile {
+        display: block !important;
+    }
+    
+}
+
+/* Medium/In-Between Media Query */
+@media (min-width: 767px) and (max-width: 1000px) {
+    .logo {
+        width: 50%;
+    }
+
+    .bio-pic {
+        width: 40%;
     }
 }
