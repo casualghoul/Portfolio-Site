@@ -13,16 +13,17 @@
 <body>
     
     <div class="container">
-    
-        <div class="row">
-            <nav>               
-                <img class="logo" src="./assets/Andrew-Horton-Logo-Full.png">    
-                <a class="project-button" href="#">Work</a>
-                <a class="project-button" href="#">Resume</a>   
-            </nav>
+
+        <div class="row nav align-items-center">            
+            <div class="col align-self-start">
+                <img class="logo" src="./assets/Andrew-Horton-Logo-Full.png">
+            </div>
+            <div class="col align-self-end nav-ctas">
+                <a class="project-button" href="#projects">Work</a>
+                <a class="project-button" href="#">Resume</a>              
+                <a class="project-button" href="#contact">Contact</a>              
+            </div>           
         </div>
-
-
 
         <div class="bio row">
             <div class="col-sm-12 col-xl-6">
@@ -43,9 +44,7 @@
         
         <div class="projects row">
 
-            <h2 class="section-header">Projects</h2>
-
-            <br>
+            <h2 id="projects" class="section-header">Projects</h2>
 
             <div>
                 <h3>GolfCartSpares - E-Commerce Website</h3>
@@ -189,9 +188,11 @@
         </div>
 
         <div class="row contact text-center">
-            <h2 class="section-header">Let's Chat</h2>
-            <p><strong>Email: </strong>hortonandrew38@gmail.com</p>
-            <a href="https://www.linkedin.com/in/andrew-c-horton/" target="_blank"><strong>LinkedIn</strong></a>
+            <div class="col">
+                <h2 id="contact" class="section-header">Let's Chat</h2>
+                <p><strong>Email: </strong>hortonandrew38@gmail.com</p>
+                <a class="project-button" href="https://www.linkedin.com/in/andrew-c-horton/" target="_blank"><strong>LinkedIn</strong></a>
+            </div>            
         </div>
 
     </div>

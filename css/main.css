@@ -9,19 +9,18 @@ body {
     /* background-color: #f3f3ff;     */
 }
 
-nav {
+.nav {
     padding: 10px;
     margin: 40px auto 0px auto;
-    
+
 }
 
-nav a {
-    margin-left: auto;
-    margin-right: 0;
+.logo {
+    width: 30%;
 }
 
-nav img {
-    width: 15%;
+.nav-ctas {
+    text-align: right;
 }
 
 .bio {
@@ -108,5 +107,9 @@ hr {
 
     .tech-tags {
         display: block;  
+    }
+
+    .logo {
+        width: 80%;
     }
 }
