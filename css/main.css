@@ -99,6 +99,10 @@ hr {
     margin-bottom: 50px;
 }
 
+.contact h2 {
+    margin-bottom: 15px;
+}
+
 
 /* Small/Mobile Media Query */
 @media (max-width: 767px) {
